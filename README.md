@@ -2,7 +2,7 @@
 
 <p>
 The purpose of this repo is to create multiple Flutter apps working with Django.
-and consume this apis with apps. This will be done in phases:
+This will be done in phases:
 </p>
 
 * <b>Follow along tutorials</b>: Being a beginner, I will start with the follow along tutorials
