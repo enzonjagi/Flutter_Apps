@@ -1,6 +1,15 @@
-# rest_api_consumption
+# rest_api_consumption: [Integrating an API into a Flutter app](https://blog.codemagic.io/rest-api-in-flutter/)
 
 A new Flutter project.
+<p>Learn how to integrate APIs, fetch data from a public API, and use it in your Flutter app. by Abhishek Doshi </p>
+<p>There are a few steps that we can follow to easily integrate an API into our Flutter app:</p>
+
+* Step 1: Get the API URL and endpoints.
+* Step 2: Add relevant packages into the app (http, dio, chopper, etc.).
+* Step 3: Create a constant file that stores URLs and endpoints.
+* Step 4: Create a model class to parse the JSON.
+* Step 5: Create a file that handles the API call, and write specific methods to fetch and parse data.
+* Step 6: Use the data in your app.
 
 ## Getting Started
 
