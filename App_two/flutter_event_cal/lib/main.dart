@@ -29,16 +29,28 @@ class _CalendarPageState extends State<CalendarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.redAccent,
         title: Text('The Calendar'),
       ),
       body: SfCalendar(
         view: CalendarView.week, //TODO Allow users to select this
         firstDayOfWeek: 1,
-        initialDisplayDate: DateTime.now(),
-        dataSource: MeetingDataSource(_getDataSource()),
+        // initialSelectedDate: DateTime.now(),
+        showCurrentTimeIndicator: true,
+        todayHighlightColor: Colors.red,
+        // cellBorderColor: Colors.brown,
+        // showWeekNumber: true,
+        cellEndPadding: 5,
+        showNavigationArrow: true,
+        dataSource: MeetingDataSource(_getDataSource()), // this is where to place data consumed from apis?
         monthViewSettings: const MonthViewSettings(
           appointmentDisplayMode: MonthAppointmentDisplayMode.appointment,
+        ),
+        selectionDecoration: BoxDecoration(
+          color: Colors.transparent,
+          border: Border.all(color: Colors.red, width: 2),
+          borderRadius: const BorderRadius.all(Radius.circular(4)),
+          shape: BoxShape.rectangle,
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -46,7 +58,7 @@ class _CalendarPageState extends State<CalendarPage> {
         // add here
         },
         child: Text('+', textAlign: TextAlign.center,),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.redAccent,
       ),
     );
   }
