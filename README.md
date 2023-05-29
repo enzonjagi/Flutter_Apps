@@ -20,3 +20,6 @@ This will be done in phases:
 * Step 4: Create a model class to parse the JSON.
 * Step 5: Create a file that handles the API call, and write specific methods to fetch and parse data.
 * Step 6: Use the data in your app.
+
+## App two: [Getting started with Flutter Event Calendar (SfCalendar)](https://help.syncfusion.com/flutter/calendar/getting-started)
+<p>We are going to build and customize the calendar widget in Flutter so we can provide our users with an extremely customizable calendar with event reminders(at the precise moment we want a reminder).</p>
