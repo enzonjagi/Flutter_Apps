@@ -29,7 +29,7 @@ class _CalendarPageState extends State<CalendarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.brown,
+        backgroundColor: Colors.blue,
         title: Text('The Calendar'),
       ),
       body: SfCalendar(
@@ -46,7 +46,7 @@ class _CalendarPageState extends State<CalendarPage> {
         // add here
         },
         child: Text('+', textAlign: TextAlign.center,),
-        backgroundColor: Colors.brown,
+        backgroundColor: Colors.blue,
       ),
     );
   }
