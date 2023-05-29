@@ -6,8 +6,8 @@ and consume this apis with apps. This will be done in phases:
 </p>
 
 * <b>Follow along tutorials</b>: Being a beginner, I will start with the follow along tutorials
-* <b>Customly Tailored apps</b>: The custom apis and apps that I'll be building along the process - might write some tutorials too.
-## Follow along tutorials on djangorestframework
+* <b>Customly Tailored apps</b>: The custom apps that I'll be building along the process - might write some tutorials too.
+## Follow along tutorials.
 
 ## App One: [Integrating an API into a Flutter app](https://blog.codemagic.io/rest-api-in-flutter/)
 ![image](/images/app_one.png)
