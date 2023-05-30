@@ -6,9 +6,16 @@
 * SQLite for the database.
 
 ## Features
+* Have users
+* Create tasks
+* Create todos/subtasks within the tasks
+* Save the tasks
 
+### Additional Features
+* Share tasks with people
+* Add more...
 ## How to Setup the App
-
+* To be added after the app is deployed
 # Creation Process
 Steps:
 ## 1. Set up the development environment:
