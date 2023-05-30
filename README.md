@@ -27,9 +27,9 @@ This will be done in phases:
 # Self-Paced Projects
 ## Project One: Task Management App
 
-Technologies:
+[Official App Documentation](/project_one/task_management/README.md)
+
+<p>Technologies:</p>
 * Flutter for the frontend mobile app development.
 * Django for the backend API development.
 * SQLite for the database.
-
-* [Official App Documentation](/project_one/task_management/README.md)
