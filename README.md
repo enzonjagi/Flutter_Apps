@@ -30,6 +30,7 @@ This will be done in phases:
 [Official App Documentation](/project_one/task_management/README.md)
 
 <p>Technologies:</p>
+
 * Flutter for the frontend mobile app development.
 * Django for the backend API development.
 * SQLite for the database.
