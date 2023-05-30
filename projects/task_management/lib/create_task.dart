@@ -19,7 +19,6 @@ class _CreateTaskState extends State<CreateTask> {
           },
         ),
         title: const Text('Create a task'),
-        backgroundColor: Colors.redAccent,
       ),
       
     );

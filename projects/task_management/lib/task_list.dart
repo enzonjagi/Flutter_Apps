@@ -14,7 +14,6 @@ class _TaskListState extends State<TaskList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
         title: const Text('KaziManager'),
         actions: [
           IconButton(
@@ -42,7 +41,6 @@ class _TaskListState extends State<TaskList> {
             )
           );
         },
-        backgroundColor: Colors.redAccent,
         child: const Icon(
           Icons.add
         ),

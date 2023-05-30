@@ -15,10 +15,6 @@ class _LoginState extends State<Login> {
     return Scaffold(
       body: Center(
         child: ElevatedButton.icon(
-          style: ElevatedButton.styleFrom(
-            shadowColor: Colors.transparent,
-            backgroundColor: Colors.redAccent,
-          ),
           onPressed: () {
             // Login
             Navigator.pushReplacement(
