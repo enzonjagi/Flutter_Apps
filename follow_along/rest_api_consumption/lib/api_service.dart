@@ -1,4 +1,5 @@
 import 'dart:developer';
+// ignore: unused_import
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
@@ -8,6 +9,7 @@ import 'package:rest_api_consumption/user_model.dart';
 
 class ApiService {
   // Handles the API Calls
+  // ignore: body_might_complete_normally_nullable
   Future<List<UserModel>?> getUsers() async {
     try {
       var url = Uri.parse(ApiConstants.baseurl + ApiConstants.usersEndpoint);
