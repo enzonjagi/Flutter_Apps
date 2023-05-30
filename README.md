@@ -31,4 +31,5 @@ Technologies:
 * Flutter for the frontend mobile app development.
 * Django for the backend API development.
 * SQLite for the database.
-[Official App Documentation](/project_one/task_management/README.md)
+
+* [Official App Documentation](/project_one/task_management/README.md)
