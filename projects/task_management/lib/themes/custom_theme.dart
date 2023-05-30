@@ -34,6 +34,17 @@ class CustomTheme with ChangeNotifier {
             backgroundColor: Colors.redAccent,
           ),
       ),
+      inputDecorationTheme: const InputDecorationTheme(
+        border: OutlineInputBorder(),
+        contentPadding: EdgeInsets.symmetric(
+          vertical: 22,
+          horizontal: 26,
+        ),
+        labelStyle: TextStyle(
+          fontSize: 28,
+          decorationColor: Colors.red,
+        )
+      )
     );
   }
 
@@ -61,7 +72,19 @@ class CustomTheme with ChangeNotifier {
             shadowColor: Colors.transparent,
             backgroundColor: const Color.fromARGB(255, 70, 1, 1)
           ),
-      )
+      ),
+      inputDecorationTheme: const InputDecorationTheme(
+        border: OutlineInputBorder(),
+        contentPadding: EdgeInsets.symmetric(
+          vertical: 22,
+          horizontal: 26,
+        ),
+        labelStyle: TextStyle(
+          fontSize: 28,
+          decorationColor: Colors.red,
+        ),
+      ),
+      
     );
   }
 }

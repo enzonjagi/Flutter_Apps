@@ -11,6 +11,8 @@ class TaskList extends StatefulWidget {
 }
 
 class _TaskListState extends State<TaskList> {
+  late List<List>? _Tasks = [];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +38,11 @@ class _TaskListState extends State<TaskList> {
           )
         ],
       ),
-      body: Container(),
+      body: _Tasks == null || _Tasks!.isEmpty
+        ? const Center(
+          child: Text("Waiting for tasks..."),
+        )
+        :Container(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Should push a window to add the task
