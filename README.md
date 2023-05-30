@@ -31,7 +31,9 @@ This will be done in phases:
 # Self-Paced Projects
 ## Project One: Task Management App
 
-[Official App Documentation](/projects/task_management/README.md)
+* [Official App Documentation](https://github.com/enzonjagi/Flutter_Apps/tree/main/projects/task_management/README.md)
+* [Flutter App](https://github.com/enzonjagi/Flutter_Apps/tree/main/projects/task_management)
+* [Django Rest Framework](https://github.com/enzonjagi/task_mgt_api)
 
 <p>Technologies:</p>
 
