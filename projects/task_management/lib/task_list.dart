@@ -43,7 +43,18 @@ class _TaskListState extends State<TaskList> {
         ? const Center(
           child: Text("Waiting for tasks..."),
         )
-        :Container(),
+        :ListView.builder(
+          itemCount: _Tasks!.length,
+          prototypeItem: const ListTile(
+            title: Text('First Item'),
+          ),
+          itemBuilder: (context, index) {
+            // we'll include the List Items here
+            return const ListTile(
+              title: Text("List Item Name"),
+            );
+          },
+        ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Should push a window to add the task
