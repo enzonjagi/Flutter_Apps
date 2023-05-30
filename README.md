@@ -11,6 +11,8 @@ This will be done in phases:
 
 ## App One: [Integrating an API into a Flutter app](https://blog.codemagic.io/rest-api-in-flutter/)
 ![image](/images/app_one.png)
+
+[App folder](/follow_along/rest_api_consumption/)
 <p>Learn how to integrate APIs, fetch data from a public API, and use it in your Flutter app. by Abhishek Doshi </p>
 <p>There are a few steps that we can follow to easily integrate an API into our Flutter app:</p>
 
@@ -22,6 +24,8 @@ This will be done in phases:
 * Step 6: Use the data in your app.
 
 ## App two: [Getting started with Flutter Event Calendar (SfCalendar)](https://help.syncfusion.com/flutter/calendar/getting-started)
+
+[App Folder](/follow_along/flutter_event_cal/)
 <p>We are going to build and customize the calendar widget in Flutter so we can provide our users with an extremely customizable calendar with event reminders(at the precise moment we want a reminder).</p>
 
 # Self-Paced Projects
