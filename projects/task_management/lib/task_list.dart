@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:task_management/auth.dart';
 import 'package:task_management/create_task.dart';
+import 'package:task_management/themes/config.dart';
 
 class TaskList extends StatefulWidget {
   const TaskList({super.key});
@@ -16,6 +17,11 @@ class _TaskListState extends State<TaskList> {
       appBar: AppBar(
         title: const Text('KaziManager'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.brightness_4),
+            onPressed: () => currentTheme.toggleTheme(),
+          ),
+
           IconButton(
             onPressed: (){
               // Should logout and call the login page
