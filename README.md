@@ -27,7 +27,7 @@ This will be done in phases:
 # Self-Paced Projects
 ## Project One: Task Management App
 
-[Official App Documentation](/project_one/task_management/README.md)
+[Official App Documentation](/projects/task_management/README.md)
 
 <p>Technologies:</p>
 
