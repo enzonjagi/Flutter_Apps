@@ -33,7 +33,7 @@ class CustomTheme with ChangeNotifier {
             shadowColor: Colors.transparent,
             backgroundColor: Colors.redAccent,
           ),
-      )
+      ),
     );
   }
 
